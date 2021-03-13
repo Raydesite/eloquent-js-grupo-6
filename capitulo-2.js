@@ -1,14 +1,7 @@
 /*
-Si no estas seguro de cómo probar tus soluciones para los ejercicios, consulta
-la introducción.
-Cada ejercicio comienza con una descripción del problema. Lee eso y trata
-de resolver el ejercicio. Si tienes problemas, considera leer las pistas en el final
-del libro. Las soluciones completas para los ejercicios no estan incluidas en
-este libro, pero puedes encontrarlas en línea en eloquentjavascript.net/code. Si
-quieres aprender algo de los ejercicios, te recomiendo mirar a las soluciones solo
-despues de que hayas resuelto el ejercicio, o al menos despues de que lo hayas
-intentando resolver por un largo tiempo y tengas un ligero dolor de cabeza.
- */
+Escriba un ciclo que haga siete llamadas a console.log para generar el siguiente
+triángulo:
+*/
 
 for(let i = 1; i < 8; i ++){
   console.log("#".repeat(i))
