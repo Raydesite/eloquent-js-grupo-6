@@ -83,10 +83,10 @@ let widthBoard = 6; //ancho
 let heigthBoard = 4; //alto
 string = '';
 
-for(let i = 0; i< widthBoard; i++){
-    for(let j = 0; j < heigthBoard; j ++){
-        string += (i + j)%2 == 0 ? "#" : " ";
+for(let i = 0; i< widthBoard; i++){ //recorrer ancho
+    for(let j = 0; j < heigthBoard; j++){ //recorrer alto
+        string += (i + j)%2 == 0 ? "#" : " "; //Verificar pares para agregar a la cadena 
     }
-    string += "\n"
+    string += "\n"; //insertar salto de linea a la cadena cuando cambia de fila 
 }
-console.log(string)
+console.log(string); //imprimir cadena completa
