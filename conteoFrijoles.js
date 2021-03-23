@@ -51,15 +51,15 @@ Reescribe contarFs para que haga uso de esta nueva función.*/
    for (i=0;i<cadena.length;i++){
      console.log(i); 
      
-     if (cadena[i]=='F' ){
+     if (cadena[i]=== caracter ){
        conteo++;
        console.log(` F en la posicion: ${conteo}`);    
   
      }  
      
    }
-   console.log(`Hay ${conteo}  F(s) en la cadena`);
+   console.log(`Hay ${conteo}  caracter en la cadena`);
    
     
  }
- contarCaracter('FelizF', caracter ='F');
+ contarCaracter('FelizF', "e");
