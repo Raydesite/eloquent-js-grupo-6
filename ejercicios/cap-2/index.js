@@ -2,7 +2,7 @@
  * Ejercicio 1
  * Escribe una función min que tome dos argumentos y retorne su mínimo.
  */
-// const min = (n1, n2)=> n1 > n2 ? n1 : n2
+const min = (n1, n2)=> n1 > n2 ? n1 : n2
 
 /*
  * Ejercicio 2
@@ -11,11 +11,11 @@
  *  un Booleano.
  */
 
-// const esPar = function(n) {
-//   if(n === 0) return true;
-//   else if( n == 1) return false;
-//   else return esPar(n -2)
-// }
+const esPar = function(n) {
+  if(n === 0) return true;
+  else if( n == 1) return false;
+  else return esPar(n -2)
+}
 
 /*
  * Ejercicio 2
