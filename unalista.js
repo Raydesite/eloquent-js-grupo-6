@@ -1,7 +1,5 @@
 /**
- * 
  *
-
 Escribe una función arrayALista que construya una estructura de lista como
 el que se muestra arriba cuando se le da [1, 2, 3] como argumento. 
 
